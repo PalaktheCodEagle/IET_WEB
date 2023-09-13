@@ -271,7 +271,7 @@ h3 .subtitle{
     background-color: #2c0f32;
     color: white;
 }
-.card-body,#cb1 {
+.card-body {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: small;
@@ -285,14 +285,15 @@ h3 .subtitle{
 #ch1{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
     background-color: #9b2928;
     color: white;
 }
 #cb1{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: small;
+    line-height: 1.7;
     background-color: #ffc9c8;
     color: #162443;
 }
@@ -302,14 +303,15 @@ h3 .subtitle{
 #ch2{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
     background-color: #2c0f32;
     color: white;
 }
 #cb2{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: small;
+    line-height: 1.7;
     background-color: #ffc9c8;
     color: #162443;
 }
@@ -378,6 +380,7 @@ h3 .subtitle{
 }
   .main {
     margin: 0;
+    padding-top: 13%;
     font-family: "Source Sans Pro", sans-serif;
     min-height: 50vh;
     display: grid;
