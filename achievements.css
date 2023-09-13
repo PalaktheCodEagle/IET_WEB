@@ -167,6 +167,14 @@ h3 .subtitle{
   --typewriterCharacters: 24;
 }
 
+.card {
+  opacity: 0;
+  transition: all 1s ease;
+}
+.show{
+  opacity: 1;
+}
+
 
 /* .footer{
   margin: 0;
@@ -201,6 +209,13 @@ h3 .subtitle{
     height: 20%;
     display: flex;
     justify-content: space-between;
+  }
+  .card {
+    opacity: 0;
+    transition: all 3s ease;
+  }
+  .show{
+    opacity: 1;
   }
   .navbar-brand {
       display: flex;

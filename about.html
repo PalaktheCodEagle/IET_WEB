@@ -24,22 +24,6 @@
 <link rel="stylesheet" href="about.css">
 
 
-<script>
-    const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        console.log(entry)
-        if(entry.isIntersecting){
-            entry.target.classList.add('show');
-        }
-        else{
-            entry.target.classList.remove('show');
-        }
-    });
-});
-
-const hiddenElements = document.querySelectorAll('.card');
-hiddenElements.forEach((el) => observer.observe(el))
-</script>
 
 <body>
     
@@ -228,6 +212,23 @@ Mission:
           <li><i class="bi bi-envelope-at-fill"></i>ietkjsit@gmail.com</li>
         </ul> 
 </div>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+      console.log(entry)
+      if(entry.isIntersecting){
+          entry.target.classList.add('show');
+      }
+      else{
+          entry.target.classList.remove('show');
+      }
+  });
+});
+
+const hiddenElements = document.querySelectorAll('.card');
+hiddenElements.forEach((el) => observer.observe(el))
+</script>
 
 </body>
 </html>
